@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_trait_SixthSense = "Sixth Sense",
+    UI_trait_SixthSenseDesc = "You can feel when somebody is around. <BR> A moodle indicates the distance of the closest humanoid being.",
+}

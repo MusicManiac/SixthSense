@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    Sandbox_Moodles = "Modded Moodles",
+    Sandbox_Moodles_SixthSenseWorksOnHumans = "SixthSense trait works on humans",
+    Sandbox_Moodles_SixthSenseWorksOnHumans_tooltip = "Deactivate if you intend to play cooperatively only.",
+}

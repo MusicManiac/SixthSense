@@ -1,0 +1,11 @@
+VERSION = 1,
+
+
+option Moodles.SixthSenseWorksOnHumans
+{
+    type = boolean,
+    default = true,
+
+    page = Moodles,
+    translation = Moodles_SixthSenseWorksOnHumans,
+}
