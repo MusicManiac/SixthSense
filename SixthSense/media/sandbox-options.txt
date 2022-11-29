@@ -1,11 +1,45 @@
 VERSION = 1,
 
 
-option Moodles.SixthSenseWorksOnHumans
+option SixthSense.SixthSenseWorksOnHumans
 {
     type = boolean,
     default = true,
+    page = SixthSense,
+    translation = SixthSense_SixthSenseWorksOnHumans,
+}
 
-    page = Moodles,
-    translation = Moodles_SixthSenseWorksOnHumans,
+option SixthSense.SixthSenseDynamic
+{
+    type = boolean,
+    default = false,
+    page = SixthSense,
+    translation = SixthSense_SixthSenseDynamic,
+}
+option SixthSense.SixthSenseLevelsRequired
+{
+    type = integer,
+	min = 0,
+	max = 20,
+    default = 16,
+    page = SixthSense,
+    translation = SixthSense_SixthSenseLevelsRequired,
+}
+option SixthSense.SixthSenseDaysSurvived
+{
+    type = integer,
+	min = 0,
+	max = 730,
+    default = 30,
+    page = SixthSense,
+    translation = SixthSense_SixthSenseDaysSurvived,
+}
+option SixthSense.SixthSenseKillsRequired
+{
+    type = integer,
+	min = 0,
+	max = 10000,
+    default = 800,
+    page = SixthSense,
+    translation = SixthSense_SixthSenseKillsRequired,
 }
