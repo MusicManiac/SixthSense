@@ -1,11 +1,11 @@
 function SixthSenseDynamic()
 	for playerIndex = 0, getNumActivePlayers() - 1 do
-        local player = getSpecificPlayer(playerIndex);
+        	local player = getSpecificPlayer(playerIndex);
 		if not player:HasTrait("SixthSense") and (player:getPerkLevel(Perks.Lightfoot) + player:getPerkLevel(Perks.Nimble)) >= SandboxVars.SixthSense.SixthSenseLevelsRequired and player:getHoursSurvived() >= (SandboxVars.SixthSense.SixthSenseDaysSurvived * 24) and player:getZombieKills() >= SandboxVars.SixthSense.SixthSenseKillsRequired then
 			player:getTraits():add("SixthSense");
 			HaloTextHelper.addTextWithArrow(player, getText("UI_trait_SixthSense"), true, HaloTextHelper.getColorGreen());
 		end
-    end
+    	end
 end
 
 function SixthSenseDynamicInit()
